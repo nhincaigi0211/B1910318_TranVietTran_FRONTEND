@@ -118,11 +118,11 @@ export default {
                 }
             }
         },
-        // goToAddContact() {
-        //     this.$router.push({
-        //         name: "contact.create",
-        //     })
-        // }
+        goToAddContact() {
+            this.$router.push({
+                name: "contact.create",
+            })
+        }
 
     },
     mounted() {

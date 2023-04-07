@@ -6,7 +6,7 @@ export default {
     emits: ["submit",  "update:modelValue"],
     methods: {
         updateModelValue(e) {
-            this.$emit("update: modelValue", e.target.value);
+            this.$emit("update:modelValue", e.target.value);
         },
         submit() {
             this.$emit("submit");
